@@ -19,7 +19,7 @@ btn4.pack()
 btn5 = Button(root, fg = "red", bg = "yellow", text="button5")
 btn5.pack()
 
-photo = PhotoImage(file="python_gui_basic\img.png")
+photo = PhotoImage(file="python_basic_gui\img.png")
 btn6 = Button(root, image = photo)
 btn6.pack()
 

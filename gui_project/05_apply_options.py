@@ -12,7 +12,7 @@ root.title("SONG Photo")
 def add_file():
     files = filedialog.askopenfilenames(title="이미지 파일을 선택하세요", \
         filetypes=(("PNG 파일","*.png"),("모든 파일", "*.*")),\
-        initialdir=r"C:\Users\rssun\Desktop\PythonWorkspace\python_gui_basic\img\gui_project") 
+        initialdir=r"C:\Users\rssun\Desktop\PythonWorkspace\python_basic_gui\img\gui_project") 
         # 최초에 사용자가 지정한 경로를 보여줌
 
     # 사용자가 선택한 파일 목록 출력

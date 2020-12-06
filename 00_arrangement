@@ -27,7 +27,7 @@ root.mainloop()
 btn1 = Button(root, text="button1",padx = 10, pady = 5, width = 10, height = 3, fg = "red", bg = "yellow")
 btn1.pack()
 
-photo = PhotoImage(file="python_gui_basic\img.png")
+photo = PhotoImage(file="python_basic_gui\img.png")
 btn2 = Button(root, image = photo)
 btn2.pack()
 ```
@@ -231,7 +231,7 @@ btn_enter.grid(row=4, column=3, rowspan=2, stick=N+E+W+S) # 현재 위치로부�
 from tkinter import filedialog 
 files = filedialog.askopenfilenames(title="이미지 파일을 선택하세요", \
     filetypes=(("PNG 파일","*.png"),("모든 파일", "*.*")),\
-    initialdir=r"C:\Users\rssun\Desktop\PythonWorkspace\python_gui_basic\gui_project") 
+    initialdir=r"C:\Users\rssun\Desktop\PythonWorkspace\python_basic_gui\gui_project") 
 ```
 
 ## 이미지 파일 편짐

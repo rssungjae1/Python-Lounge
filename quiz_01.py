@@ -19,7 +19,7 @@ root = Tk()
 root.title("SONG Memo")
 root.geometry("640x480")
 
-filename = "python_gui_basic\mynote.txt"
+filename = "python_basic_gui\mynote.txt"
 
 # 열기
 def func_open():
